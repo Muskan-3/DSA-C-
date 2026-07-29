@@ -80,7 +80,8 @@ public:
                 } else {
                     break;
                 }
-            } else {
+            } 
+            else {
                 if (arr[i] > arr[right]) {
                     swap(arr[i], arr[right]);
                     i = right;
